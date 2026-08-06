@@ -96,6 +96,23 @@ header p a {
   pointer-events: none;
 }
 
+.star {
+  position: absolute;
+  color: #000;
+  font-size: 18px;
+  z-index: 5;
+}
+
+.star.left {
+  left: 55px;
+  bottom: 55px;
+}
+
+.star.right {
+  right: 20px;
+  top: 55px;
+}
+
 /* Left_side_content */
 
 .left-content {
