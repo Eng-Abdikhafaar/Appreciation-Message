@@ -1,0 +1,13 @@
+:root {
+  --color-white: #ffffff;
+  --color-text: #222;
+  --color-muted: #444;
+  --color-border: #999;
+  --color-black: #000;
+  --color-gray-light: #d9d9d9;
+  --color-gray-dark: #333333;
+  --page-padding: 30px 50px;
+  --section-gap: 15px;
+  --radius-pill: 30px;
+  --radius-sm: 4px;
+}
