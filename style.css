@@ -160,3 +160,47 @@ footer {
   font-size: 13px;
   color: var(--color-muted);
 }
+
+/* RESPONSIVE  */
+
+@media (max-width: 760px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+  }
+
+  .left-content p {
+    font-size: 12px;
+  }
+
+  .person-detail h4 {
+    font-size: 15px;
+  }
+
+  .microphone-icon img {
+    width: 25px;
+  }
+
+  .Sponsors {
+    flex-wrap: wrap;
+  }
+
+  .Sponsors h5 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
