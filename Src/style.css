@@ -60,6 +60,42 @@ header p a {
   margin-bottom: -15px;
 }
 
+.container::before {
+  content: "";
+  position: absolute;
+
+  width: 700px;
+  height: 700px;
+
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+
+  left: -480px;
+  bottom: -430px;
+
+  transform: rotate(-25deg);
+
+  pointer-events: none;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+
+  width: 700px;
+  height: 700px;
+
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+
+  right: -480px;
+  top: -430px;
+
+  transform: rotate(-25deg);
+
+  pointer-events: none;
+}
+
 /* Left_side_content */
 
 .left-content {
