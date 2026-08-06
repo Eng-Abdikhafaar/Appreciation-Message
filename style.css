@@ -11,3 +11,21 @@
   --radius-pill: 30px;
   --radius-sm: 4px;
 }
+
+/* Base Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 1600px;
+  margin: auto;
+  background: var(--color-white);
+  padding: var(--page-padding);
+  color: var(--color-text);
+}
+
