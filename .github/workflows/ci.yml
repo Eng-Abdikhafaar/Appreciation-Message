@@ -18,7 +18,7 @@ jobs:
 
       - name: Verify project files
         run: |
-          test -f index.html
+          test -f Src/index.html
           test -f Src/style.css
           echo "Appreciation Message project files verified successfully."
 
